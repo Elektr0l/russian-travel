@@ -8,10 +8,10 @@
   color: white;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .intro__title {
-    font-size: calc((100vw - 320px) / (1024 - 320) * (54 - 32) + 32px);
-    line-height: calc((100vw - 320px) / (1024 - 320) * (58 - 32) + 32px);
+    font-size: calc((100vw - 320px) / (768 - 320) * (54 - 32) + 32px);
+    line-height: calc((100vw - 320px) / (768 - 320) * (58 - 32) + 32px);
   }
 }
 

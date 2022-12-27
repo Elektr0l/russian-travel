@@ -2,8 +2,29 @@
   margin: 0;
   padding: 0;
   display: flex;
-  grid-gap: 24px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  grid-gap: 0 19px;
   list-style-type: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__links {
+    margin-left: 46px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__links {
+    margin-left: 25px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .footer__links {
+    flex-direction: column;
+    grid-gap: 24px
+  }
 }
 
 @media screen and (max-width: 320px) {

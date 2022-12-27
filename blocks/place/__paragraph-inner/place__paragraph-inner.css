@@ -3,8 +3,8 @@
   margin-bottom: 26px;
   font-style: normal;
   font-weight: 400;
-  font-size: 1,125rem;
-  line-height: 1,8125rem;
+  font-size: 1.125rem;
+  line-height: 1.8125rem;
   /* or 29px */
   color: white;
 }
@@ -23,6 +23,7 @@
   .place__paragraph-inner {
     font-size: 1rem;
     line-height: 1.625rem;
+    text-align: left;
     margin-bottom: 25px;
   }
 }
