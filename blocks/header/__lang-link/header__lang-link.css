@@ -1,5 +1,4 @@
 .header__lang-link {
-  margin-right: 18px;
   font-style: normal;
   font-weight: 400;
   font-size: 1.5rem;
@@ -9,9 +8,6 @@
   color: white;
 }
 
-.header__lang-link:last-child {
-  margin-right: 0;
-}
 
 @media screen and (max-width: 320px) {
   .header__lang-link {
