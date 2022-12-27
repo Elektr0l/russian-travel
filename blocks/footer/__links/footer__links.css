@@ -23,14 +23,13 @@
 @media screen and (max-width: 540px) {
   .footer__links {
     flex-direction: column;
-    grid-gap: 24px
+    grid-gap: 24px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .footer__links {
     margin-left: 16px;
-    flex-direction: column;
     grid-gap: 32px;
   }
 }
