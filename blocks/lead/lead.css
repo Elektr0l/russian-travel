@@ -1,5 +1,5 @@
 .lead {
-  margin: 45px auto 0;
+  margin: 55px auto 0;
   max-width: 984px;
   display: flex;
   flex-direction: column;
@@ -8,7 +8,7 @@
 
 @media screen and (max-width: 1024px) {
   .lead {
-    margin: 37px auto 0;
+    margin: 47px auto 0;
     max-width: 928px;
   }
 }
@@ -21,7 +21,7 @@
 
 @media screen and (max-width: 320px) {
   .lead {
-    margin: 33px auto 0;
+    margin: 49px auto 0;
     max-width: 320px;
   }
 }

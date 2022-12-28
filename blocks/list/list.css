@@ -4,3 +4,9 @@
   list-style: none;
   color: white;
 }
+
+@media screen and (max-width: 320px) {
+  .list {
+    margin: 8px auto 64px;
+  }
+}

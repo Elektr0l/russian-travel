@@ -37,13 +37,6 @@
   }
 }
 
-@media screen and (max-width: 320px) {
-  .cover__item {
-    background-size: cover;
-    max-height: 200px;
-  }
-}
-
 .cover__item::before {
   position: absolute;
   top: 0;
